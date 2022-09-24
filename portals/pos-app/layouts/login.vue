@@ -1,0 +1,19 @@
+<template>
+  <section>
+    <div>
+      <div id="bg"></div>
+
+      <div class="form-field">
+        <input type="email" placeholder="Email / Username" required />
+      </div>
+
+      <div class="form-field">
+        <input type="password" placeholder="Password" required />
+      </div>
+
+      <div class="form-field">
+        <button class="btn" type="submit">Log in</button>
+      </div>
+    </div>
+  </section>
+</template>
