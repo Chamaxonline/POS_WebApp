@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CreateComponent } from './components/create/create.component';
+import { ItemManagementComponent } from './components/item-management/item-management.component';
 
 const routes: Routes = [
-  { path: 'item-create', component: CreateComponent }
+  { path: 'item', component: ItemManagementComponent }
 ];
 
 @NgModule({

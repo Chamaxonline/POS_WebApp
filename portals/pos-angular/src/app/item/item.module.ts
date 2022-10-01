@@ -2,13 +2,16 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ItemRoutingModule } from './item-routing.module';
-import { CreateComponent } from './components/create/create.component';
+import { ItemManagementComponent } from './components/item-management/item-management.component';
+import { ItemCreateComponent } from './components/item-management/item-create/item-create.component';
+import { ItemListComponent } from './components/item-management/item-list/item-list.component';
 
 
 @NgModule({
   declarations: [
-  
-    CreateComponent
+       ItemManagementComponent,
+       ItemCreateComponent,
+       ItemListComponent
   ],
   imports: [
     CommonModule,
